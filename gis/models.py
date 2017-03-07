@@ -10,3 +10,5 @@ class Articleas(models.Model):
     text = models.TextField()
     user = models.ForeignKey(User)
 
+def __str__(self):
+    return self.title
